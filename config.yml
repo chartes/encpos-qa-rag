@@ -1,0 +1,45 @@
+llm:
+  endpoint:
+    lmstudio: "http://localhost:1234/v1"
+  models:
+    mistral-nemo:
+      name: "mistral-nemo-12b-instruct-2407"
+      temperature: 1.0
+      top_p: 1.0
+
+embedding_model:
+  camembert:
+    name: "camembert-base"
+    model_path: "Lajavaness/sentence-camembert-base"
+  camembert-large:
+    name: "camembert-large"
+    model_path: "Lajavaness/sentence-camembert-large"
+  multilingual:
+    name: "sentence-transformers_distiluse-base-multilingual"
+    model_path: "sentence-transformers/distiluse-base-multilingual-cased-v1"
+
+vectorstore:
+  qdrant:
+    collection: "encpos"
+    index_path: "data/vectordb/qdrant_db"
+
+  faiss:
+    index_path: "data/vectordb/faiss_index"
+
+
+data:
+  source: "data/raw/encpos_prepared.csv" # Original scrapped and prepared data
+
+chunking_strategy:
+  type: "text_splitter"
+  level: "token"
+  chunk_size: 512
+  chunk_overlap: 52
+
+rag:
+  retriever:
+    top_k: 10
+    similarity_threshold: 0.0
+  reranking:
+    enabled: false
+    model: "mistral-nemo-12b-instruct-2407" # test colbert-V2
