@@ -1,4 +1,11 @@
 # encpos-qa-rag
+
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![Conda](https://img.shields.io/badge/conda-available-green.svg)](https://docs.conda.io/en/latest/)
+
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
+
 A Question-answering RAG (Retrieval-augmented generation) pipeline for positions de thèses de l'ENC (ENCPOS).
 
 
