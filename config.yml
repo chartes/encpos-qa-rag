@@ -15,7 +15,7 @@ defaults:
 ]
   k: 10
   force_rebuild: false
-  base_path: "data/vectordb"
+  base_path: "data/retrievers/vectordb"
   collection_prefix: "encpos"
 
 embedding_models:

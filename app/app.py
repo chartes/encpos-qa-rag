@@ -125,7 +125,7 @@ doc_container = col_right.expander("📄 Retrieved documents and sections", expa
 
 # === 🚀 Lancement de la requête ===
 if submit_button and question and template_path:
-    bm25_path = "../data/vectordb/bm25/bm25.encpos.tok.512_51.pkl"
+    bm25_path = "../data/retrievers/bm25/bm25.encpos.tok.512_51.pkl"
 
     if backend == "bm25":
         embedding_key = "bm25"

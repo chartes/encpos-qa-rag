@@ -10,7 +10,7 @@
 This repository all the notebooks, code, application and ressources (data) for the RAG LLM pipeline 
 for "Postions de thèses" corpora de l'École nationale des chartes.
 
-### installation
+### Install
 
 - Clone the repository:
 ```bash
@@ -44,12 +44,11 @@ pip3 install -r requirements.txt
 - Unzip the file in the `data/` directory
 
 
-Now you can run the notebooks in the `notebooks/` directory or the Streamlit app in the `app/` directory.
+### [Notebooks](./notebooks) 
 
+> [`config.yml`](./config.yml) contains the configuration for the notebooks, including the paths to the data and the retrievers. You can modify it to suit your needs.
 
-#### [`notebooks/`](./notebooks) 
-
-=> le fichier config.yml contient les paramètres de chunking et de prétraitement des données
+> Some data are already calculated and stored in the `data/` directory, you can use them directly without re-running the notebooks.
 
 | Fichier                                                                    | Description                                                                                |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -58,16 +57,9 @@ Now you can run the notebooks in the `notebooks/` directory or the Streamlit app
 | [`03-assemble_rag.ipynb`](notebooks/03-create_qa_rag.ipynb)                | Création du Reader et du pipeline RAG (Retriever+LLM) pour les positions de thèses de l'ENC |
 
 
-#### test app 
+### [Streamlit application](./app/)
 
 Check a specific documentation for [streamlit application](app/README.md)
-
-#### tree directory 
-```bash
-|-- encpos-qa-rag
-  |-- data/
-
-### Citation 
 
 ```
 @inproceedings{terjo2025from,
