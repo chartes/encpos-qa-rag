@@ -7,10 +7,10 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 
 
-This repository all the notebooks, code, application and ressources (data) for the RAG LLM pipeline 
+This repository all the notebooks, code, application and ressources (data) for the RAG LLM pipeline experiments
 for "Postions de thèses" corpora de l'École nationale des chartes.
 
-### Install
+### Installation
 
 - Clone the repository:
 ```bash
@@ -48,7 +48,7 @@ pip3 install -r requirements.txt
 
 > [`config.yml`](./config.yml) contains the configuration for the notebooks, including the paths to the data and the retrievers. You can modify it to suit your needs.
 
-> Some data are already calculated and stored in the `data/` directory, you can use them directly without re-running the notebooks.
+> [!WARNING] Some data are already calculated and stored in the `data/` directory, you can use them directly without re-running the notebooks.
 
 | Fichier                                                                    | Description                                                                                |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
