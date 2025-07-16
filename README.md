@@ -46,6 +46,7 @@ pip3 install -r requirements.txt
 
 ### [Notebooks](./notebooks) 
 
+> [!INFO] 
 > [`config.yml`](./config.yml) contains the configuration for the notebooks, including the paths to the data and the retrievers. You can modify it to suit your needs.
 
 > [!WARNING] 
