@@ -48,7 +48,8 @@ pip3 install -r requirements.txt
 
 > [`config.yml`](./config.yml) contains the configuration for the notebooks, including the paths to the data and the retrievers. You can modify it to suit your needs.
 
-> [!WARNING] Some data are already calculated and stored in the `data/` directory, you can use them directly without re-running the notebooks.
+> [!WARNING] 
+> Some data are already calculated and stored in the `data/` directory, you can use them directly without re-running the notebooks.
 
 | Fichier                                                                    | Description                                                                                |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
