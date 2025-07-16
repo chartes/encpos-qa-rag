@@ -195,9 +195,15 @@ cython_debug/
 
 # third-party libraries
 src/Pleias-Rag
-
 data/vectordb
+data/retrievers/
+data/retrievers.zip
+
+export_env.txt
+notebooks/archive/
+notebooks/wip/
 
 .DS_Store
 # checkpoint files notebooks
 *.ipynb_checkpoints
+

@@ -1,0 +1,602 @@
+[
+  {
+    "ctx": "ENCPOS_1956_03_4_chunk_1",
+    "question": "Quel rôle les États d’Artois ont-ils joué dans la vie administrative et politique de la province jusqu’à la fin du Moyen Âge ?",
+    "label": "Historique",
+    "answer": "Les États d’Artois ont constitué une assemblée représentative ayant une part active dans la gestion administrative et politique de la province, notamment par le vote des subsides et l’expression des doléances jusqu’à la fin du Moyen Âge."
+  },
+  {
+    "ctx": "ENCPOS_2008_13_18_chunk_0",
+    "question": "Comment Michel Liénard a-t-il contribué à la diffusion de l’ornementation au XIXe siècle ?",
+    "label": "Historique",
+    "answer": "Michel Liénard a contribué à la diffusion de l’ornementation au XIXe siècle en produisant des modèles qui ont connu un large succès en France et à l’étranger, notamment par des publications et une production destinée aux industriels et décorateurs."
+  },
+  {
+    "ctx": "ENCPOS_1957_13_3_chunk_0",
+    "question": "Quel est l’objet principal des recherches sur les noms de lieux du canton de Montfort-l’Amaury ?",
+    "label": "Conceptuel",
+    "answer": "Les recherches portent sur l’origine, la signification et l’évolution linguistique des toponymes du canton de Montfort-l’Amaury, dans une perspective historique et philologique."
+  },
+  {
+    "ctx": "ENCPOS_1897_06_7_chunk_0",
+    "question": "Quels sont les aspects marquants du règne de Louis IV d’Outremer entre 936 et 954 ?",
+    "label": "Historique",
+    "answer": "Le règne de Louis IV d’Outremer se caractérise par la difficulté à affirmer l’autorité royale face aux grands féodaux, un rôle politique influencé par les alliances et un contexte de transition post-carolingien."
+  },
+  {
+    "ctx": "ENCPOS_1948_08_13_chunk_0",
+    "question": "Quels éléments architecturaux permettent de distinguer les églises romanes des églises gothiques dans l’ancien archidiocèse de Reims ?",
+    "label": "Comparatif",
+    "answer": "Les églises romanes se distinguent par des voûtes en berceau, des arcs en plein cintre et une ornementation sobre, tandis que les églises gothiques se caractérisent par des arcs brisés, des voûtes sur croisée d’ogives et un décor plus riche."
+  },
+  {
+    "ctx": "ENCPOS_1905_02_14_chunk_0",
+    "question": "Quel rôle André Jubert de Bouville a-t-il joué dans l’administration du duché de Milan ?",
+    "label": "Historique",
+    "answer": "André Jubert de Bouville a été un administrateur important du duché de Milan, où il a exercé des fonctions de gouvernance et de contrôle administratif au nom du roi de France à la fin du XVe siècle."
+  },
+  {
+    "ctx": "ENCPOS_2014_21_1_chunk_1",
+    "question": "Quels types de sources sont mobilisés pour étudier l’entourage de David II Gradis ?",
+    "label": "Méthodologique",
+    "answer": "L’étude de l’entourage de David II Gradis mobilise des sources variées telles que les correspondances, archives commerciales et documents communautaires juifs du XVIIIe siècle."
+  },
+  {
+    "ctx": "ENCPOS_1909_10_8_chunk_0",
+    "question": "Quel est le sujet central de la Bouquechardière de Jean de Courcy ?",
+    "label": "Conceptuel",
+    "answer": "La Bouquechardière est un miroir des princes, retraçant l’histoire légendaire de Troie jusqu’à la fondation de la monarchie française, avec une intention morale et politique."
+  },
+  {
+    "ctx": "ENCPOS_1924_09_10_chunk_0",
+    "question": "Comment le commerce avec le Levant était-il organisé sous le règne de Louis XI ?",
+    "label": "Historique",
+    "answer": "Le commerce avec le Levant sous Louis XI reposait sur des accords diplomatiques, des privilèges accordés aux marchands français et une organisation portuaire facilitant les échanges avec les cités italiennes et orientales."
+  },
+  {
+    "ctx": "ENCPOS_1897_09_7_chunk_0",
+    "question": "Quel a été le rôle politique de l’archevêque de Rouen Eudes Rigaud au XIIIe siècle ?",
+    "label": "Historique",
+    "answer": "Eudes Rigaud a exercé un rôle politique important au XIIIe siècle en tant que conseiller du roi, réformateur ecclésiastique et acteur des affaires religieuses et publiques de la province de Normandie."
+  },
+  {
+    "ctx": "ENCPOS_1993_09_10_chunk_0",
+    "question": "Quels aspects du costume civil masculin sont étudiés pour le XVIIIe siècle ?",
+    "label": "Conceptuel",
+    "answer": "L’étude porte sur les éléments vestimentaires caractéristiques du costume civil masculin au XVIIIe siècle, leurs fonctions sociales, esthétiques et symboliques, ainsi que leur évolution dans les pratiques et représentations."
+  },
+  {
+    "ctx": "ENCPOS_2001_14_12_chunk_1",
+    "question": "Comment les actes notariés de la région toulousaine sont-ils utilisés pour étudier la société urbaine du XVe siècle ?",
+    "label": "Méthodologique",
+    "answer": "Les actes notariés permettent d’analyser les structures sociales, les relations économiques et les pratiques juridiques dans la société urbaine toulousaine du XVe siècle, en offrant une source directe sur les interactions entre les individus."
+  },
+  {
+    "ctx": "ENCPOS_2013_16_5_chunk_0",
+    "question": "Quel rôle le cartulaire de l’abbaye de Cluny joue-t-il dans la compréhension de l’organisation monastique ?",
+    "label": "Conceptuel",
+    "answer": "Le cartulaire de Cluny permet d’appréhender les fondements juridiques, économiques et territoriaux de l’organisation monastique clunisienne, en documentant ses possessions et ses relations avec les autorités laïques."
+  },
+  {
+    "ctx": "ENCPOS_2018_15_3_chunk_0",
+    "question": "Quels apports l’étude des statuts communaux d’Italie du Nord offre-t-elle pour comprendre l’autonomie urbaine médiévale ?",
+    "label": "Historique",
+    "answer": "Les statuts communaux montrent l’émergence d’une législation propre aux villes, fondée sur l’autonomie juridique, l’organisation municipale et la régulation sociale, caractéristiques des communes italiennes médiévales."
+  },
+  {
+    "ctx": "ENCPOS_1982_07_6_chunk_0",
+    "question": "Comment les pratiques de lecture féminines sont-elles abordées pour le XVIIIe siècle ?",
+    "label": "Conceptuel",
+    "answer": "L’étude interroge les modalités spécifiques de la lecture féminine, en tenant compte des genres littéraires privilégiés, des espaces de lecture, et des représentations sociales associées à la lectrice au XVIIIe siècle."
+  },
+  {
+    "ctx": "ENCPOS_1999_15_10_chunk_1",
+    "question": "Quelles données les livres de raison apportent-ils sur les pratiques familiales à l’époque moderne ?",
+    "label": "Conceptuel",
+    "answer": "Les livres de raison offrent des informations sur les événements familiaux, la gestion domestique, les alliances et les représentations de la mémoire familiale à l’époque moderne."
+  },
+  {
+    "ctx": "ENCPOS_1990_09_9_chunk_0",
+    "question": "Quels objectifs poursuivait la réforme des archives départementales dans les années 1880 ?",
+    "label": "Historique",
+    "answer": "La réforme visait à rationaliser l’organisation des archives départementales, améliorer les conditions de conservation, renforcer le contrôle scientifique de l’État et développer l’accès aux documents pour la recherche."
+  },
+  {
+    "ctx": "ENCPOS_2011_17_6_chunk_1",
+    "question": "Comment les supports numériques sont-ils intégrés dans les projets de valorisation patrimoniale ?",
+    "label": "Méthodologique",
+    "answer": "Les supports numériques sont mobilisés pour la diffusion en ligne, l’interopérabilité des données, la création de bases visuelles ou cartographiques et l’engagement des publics dans la valorisation du patrimoine."
+  },
+  {
+    "ctx": "ENCPOS_1936_13_9_chunk_0",
+    "question": "Quel était le rôle du chapitre cathédral dans la gestion urbaine à Rouen au XIIIe siècle ?",
+    "label": "Historique",
+    "answer": "Le chapitre cathédral de Rouen jouait un rôle administratif et judiciaire important dans la gestion de la ville au XIIIe siècle, en lien avec les autorités ecclésiastiques et laïques."
+  },
+  {
+    "ctx": "ENCPOS_1978_11_6_chunk_1",
+    "question": "Comment la photographie est-elle mobilisée dans l’inventaire du patrimoine architectural ?",
+    "label": "Méthodologique",
+    "answer": "La photographie est utilisée comme outil de documentation visuelle, de comparaison stylistique et de support à la conservation dans les opérations d’inventaire du patrimoine architectural."
+  },
+  {
+    "ctx": "ENCPOS_1994_06_8_chunk_0",
+    "question": "Quels sont les critères d’authenticité d’un acte diplomatique du XIIIe siècle ?",
+    "label": "Conceptuel",
+    "answer": "Les critères d’authenticité incluent la matérialité du support, les formules diplomatiques, la présence de sceaux, la régularité scripturaire et la concordance avec d’autres sources contemporaines."
+  },
+  {
+    "ctx": "ENCPOS_2020_11_7_chunk_0",
+    "question": "Quelles thématiques sont privilégiées dans les programmes de médiation des musées d’histoire ?",
+    "label": "Prospective",
+    "answer": "Les musées d’histoire privilégient des thématiques transversales comme les mémoires collectives, les enjeux de transmission, la diversité culturelle et l’interprétation critique du passé."
+  },
+  {
+    "ctx": "ENCPOS_1965_07_5_chunk_1",
+    "question": "Quelle est l’importance des inventaires après décès dans l’étude des sociétés d’Ancien Régime ?",
+    "label": "Conceptuel",
+    "answer": "Les inventaires après décès permettent d’analyser les structures de consommation, la culture matérielle, les hiérarchies sociales et les pratiques domestiques sous l’Ancien Régime."
+  },
+  {
+    "ctx": "ENCPOS_2003_19_15_chunk_0",
+    "question": "Quels enjeux posent les archives numériques dans les institutions patrimoniales contemporaines ?",
+    "label": "Prospective",
+    "answer": "Les archives numériques posent des enjeux de pérennité, d’accessibilité, d’interopérabilité et de médiation dans les institutions patrimoniales contemporaines."
+  },
+  {
+    "ctx": "ENCPOS_1885_09_4_chunk_0",
+    "question": "Comment la chancellerie royale française évolue-t-elle sous Philippe le Bel ?",
+    "label": "Historique",
+    "answer": "Sous Philippe le Bel, la chancellerie royale se développe avec une production documentaire accrue, une structuration des formules diplomatiques et un renforcement du contrôle administratif royal."
+  },
+  {
+    "ctx": "ENCPOS_2015_16_6_chunk_0",
+    "question": "Quelle est la spécificité des corpus hagiographiques byzantins dans leur traitement textuel ?",
+    "label": "Méthodologique",
+    "answer": "Les corpus hagiographiques byzantins sont traités par des méthodes combinant édition critique, encodage TEI et outils lexicométriques pour analyser leur structure narrative et stylistique."
+  },
+  {
+    "ctx": "ENCPOS_2010_10_6_chunk_1",
+    "question": "Comment les bibliothèques patrimoniales contribuent-elles à la transmission des savoirs anciens ?",
+    "label": "Prospective",
+    "answer": "Les bibliothèques patrimoniales jouent un rôle central dans la préservation, la numérisation et la médiation des savoirs anciens, en facilitant leur accès et leur réinterprétation dans des contextes contemporains."
+  },
+  {
+    "ctx": "ENCPOS_1996_04_5_chunk_0",
+    "question": "Quels critères sont utilisés pour classer les manuscrits liturgiques médiévaux ?",
+    "label": "Méthodologique",
+    "answer": "Le classement des manuscrits liturgiques repose sur leur typologie fonctionnelle (missel, bréviaire…), leur calendrier, leurs caractéristiques codicologiques et leur provenance ecclésiastique."
+  },
+  {
+    "ctx": "ENCPOS_1975_05_4_chunk_1",
+    "question": "Quelle était la fonction sociale du notaire au sein des communautés rurales sous l’Ancien Régime ?",
+    "label": "Historique",
+    "answer": "Le notaire jouait un rôle de médiateur juridique et d’officier public dans les communautés rurales, assurant la rédaction des actes et la formalisation des transactions privées sous l’Ancien Régime."
+  },
+  {
+    "ctx": "ENCPOS_1997_11_8_chunk_1",
+    "question": "Quelles relations les communautés juives médiévales entretenaient-elles avec les pouvoirs urbains ?",
+    "label": "Historique",
+    "answer": "Les communautés juives médiévales entretenaient des relations encadrées et souvent conflictuelles avec les autorités urbaines, oscillant entre tolérance administrative et contraintes fiscales ou juridiques."
+  },
+  {
+    "ctx": "ENCPOS_1986_13_10_chunk_1",
+    "question": "Quel apport les sceaux médiévaux offrent-ils à l’histoire sociale ?",
+    "label": "Conceptuel",
+    "answer": "Les sceaux médiévaux constituent des indices précieux pour l’histoire sociale, en révélant l’identité, le statut, les réseaux et les aspirations des individus ou institutions qui les utilisent."
+  },
+  {
+    "ctx": "ENCPOS_1992_10_7_chunk_0",
+    "question": "Comment évolue la représentation du pouvoir royal dans les chroniques du XVe siècle ?",
+    "label": "Historique",
+    "answer": "La représentation du pouvoir royal devient plus centralisée et idéalisée dans les chroniques du XVe siècle, avec une insistance sur la légitimité dynastique, la justice souveraine et les signes extérieurs de majesté."
+  },
+  {
+    "ctx": "ENCPOS_1981_06_4_chunk_1",
+    "question": "Quelles méthodes permettent d’analyser les pratiques de lecture dans les bibliothèques princières de la Renaissance ?",
+    "label": "Méthodologique",
+    "answer": "L’analyse s’appuie sur les inventaires de bibliothèques, les annotations marginales, les listes de prêts et la reconstitution des réseaux de circulation des livres dans les milieux princiers de la Renaissance."
+  },
+  {
+    "ctx": "ENCPOS_2007_17_11_chunk_1",
+    "question": "Quels sont les enjeux de la patrimonialisation des archives sonores ?",
+    "label": "Prospective",
+    "answer": "La patrimonialisation des archives sonores soulève des enjeux liés à leur conservation matérielle, leur numérisation, leur indexation thématique et leur valorisation dans des contextes culturels et éducatifs."
+  },
+  {
+    "ctx": "ENCPOS_2016_19_8_chunk_0",
+    "question": "Quelle place les femmes occupent-elles dans les testaments rédigés à Marseille au XVIe siècle ?",
+    "label": "Historique",
+    "answer": "Les testaments révèlent que les femmes occupent une place active dans la transmission des biens, la formulation de volontés pieuses et la constitution de réseaux familiaux à Marseille au XVIe siècle."
+  },
+  {
+    "ctx": "ENCPOS_1932_08_8_chunk_0",
+    "question": "Quel rôle joue la confrérie dans la structuration sociale des paroisses au XVe siècle ?",
+    "label": "Conceptuel",
+    "answer": "La confrérie constitue un espace de solidarité religieuse et sociale, favorisant la cohésion paroissiale, la gestion rituelle des temps liturgiques et l’expression d’une sociabilité communautaire au XVe siècle."
+  },
+  {
+    "ctx": "ENCPOS_1984_04_3_chunk_1",
+    "question": "Comment les bibliothèques ecclésiastiques ont-elles été transformées pendant la Révolution ?",
+    "label": "Historique",
+    "answer": "Les bibliothèques ecclésiastiques furent saisies, inventoriées puis redistribuées à des institutions publiques, transformant en profondeur la circulation et la conservation des livres religieux pendant la Révolution."
+  },
+  {
+    "ctx": "ENCPOS_2004_05_1_chunk_0",
+    "question": "Comment les sources iconographiques peuvent-elles éclairer les rituels funéraires médiévaux ?",
+    "label": "Méthodologique",
+    "answer": "Les sources iconographiques, telles que les miniatures, peintures murales et vitraux, permettent de visualiser les pratiques liturgiques, les attitudes corporelles et les objets associés aux rituels funéraires médiévaux."
+  },
+  {
+    "ctx": "ENCPOS_1971_03_3_chunk_1",
+    "question": "Quelle est la spécificité du droit féodal dans la France du XIe siècle ?",
+    "label": "Conceptuel",
+    "answer": "Le droit féodal au XIe siècle repose sur des liens personnalisés de dépendance, l’usage de coutumes locales, et des pratiques de fidélité, investiture et hommage régulant les rapports seigneuriaux."
+  },
+  {
+    "ctx": "ENCPOS_2004_18_14_chunk_1",
+    "question": "Comment la notion d’archive ouverte transforme-t-elle l’accès à la recherche ?",
+    "label": "Prospective",
+    "answer": "L’archive ouverte facilite l’accès libre aux productions scientifiques, modifie les circuits de diffusion du savoir et favorise une science plus participative et interopérable."
+  },
+  {
+    "ctx": "ENCPOS_1937_06_8_chunk_0",
+    "question": "Quelle fonction les cartulaires remplissent-ils dans les établissements religieux médiévaux ?",
+    "label": "Conceptuel",
+    "answer": "Les cartulaires permettent aux établissements religieux de consolider juridiquement leurs possessions, de préserver leur mémoire institutionnelle et de garantir leurs droits face aux contestations."
+  },
+  {
+    "ctx": "ENCPOS_2008_25_9_chunk_0",
+    "question": "Comment les pratiques de donation évoluent-elles à la fin du Moyen Âge ?",
+    "label": "Historique",
+    "answer": "Les pratiques de donation deviennent plus individualisées, ciblant des fondations spécifiques, et témoignent d’une conscience plus affirmée de la mémoire personnelle et des attentes eschatologiques."
+  },
+  {
+    "ctx": "ENCPOS_1964_02_2_chunk_1",
+    "question": "Quels sont les apports des archives judiciaires à l’histoire des mentalités ?",
+    "label": "Conceptuel",
+    "answer": "Les archives judiciaires offrent un accès privilégié aux comportements, aux normes sociales et aux représentations collectives, en révélant les conflits, les émotions et les transgressions dans la société."
+  },
+  {
+    "ctx": "ENCPOS_2002_13_12_chunk_1",
+    "question": "Quels outils numériques sont utilisés pour indexer les manuscrits enluminés ?",
+    "label": "Méthodologique",
+    "answer": "Les outils incluent l’encodage XML-TEI, des bases de données d’iconographie, des moteurs de recherche thématique et des interfaces visuelles d’exploration des images et métadonnées."
+  },
+  {
+    "ctx": "ENCPOS_1974_08_6_chunk_0",
+    "question": "Quelles sont les fonctions des registres paroissiaux dans la société d’Ancien Régime ?",
+    "label": "Conceptuel",
+    "answer": "Les registres paroissiaux assurent l’enregistrement des sacrements, la surveillance des comportements religieux et la constitution de preuves pour les états civils et juridiques sous l’Ancien Régime."
+  },
+  {
+    "ctx": "ENCPOS_1983_12_8_chunk_0",
+    "question": "Comment évolue la perception de la sorcellerie dans les campagnes françaises au XVIIe siècle ?",
+    "label": "Historique",
+    "answer": "La perception de la sorcellerie décline progressivement au XVIIe siècle dans les campagnes françaises, avec un recul des poursuites judiciaires et une réinterprétation plus rationnelle des comportements déviants."
+  },
+  {
+    "ctx": "ENCPOS_2012_15_7_chunk_1",
+    "question": "Quels sont les enjeux éthiques liés à la numérisation des fonds d’archives coloniales ?",
+    "label": "Prospective",
+    "answer": "Les enjeux éthiques incluent la représentation des violences historiques, le respect des mémoires locales, la gestion des droits d’accès et la collaboration avec les sociétés postcoloniales concernées."
+  },
+  {
+    "ctx": "ENCPOS_1942_09_7_chunk_0",
+    "question": "Quel rôle les chartes de franchises ont-elles joué dans l’affirmation des libertés urbaines au Moyen Âge ?",
+    "label": "Historique",
+    "answer": "Les chartes de franchises ont établi des privilèges collectifs, réglementé les pouvoirs municipaux et garanti des libertés fiscales et judiciaires aux habitants des villes médiévales."
+  },
+  {
+    "ctx": "ENCPOS_2017_12_7_chunk_1",
+    "question": "Comment la modélisation 3D est-elle utilisée pour restituer les édifices disparus ?",
+    "label": "Méthodologique",
+    "answer": "La modélisation 3D mobilise des sources iconographiques, plans anciens, relevés archéologiques et hypothèses architecturales pour restituer visuellement les édifices disparus et en faciliter la médiation."
+  },
+  {
+    "ctx": "ENCPOS_1960_03_2_chunk_1",
+    "question": "Comment les communautés rurales du Languedoc réagissent-elles à la fiscalité royale au XVIe siècle ?",
+    "label": "Historique",
+    "answer": "Les communautés rurales expriment des résistances à la fiscalité royale à travers des protestations, des recours collectifs et parfois des fraudes ou retards de paiement dans le Languedoc au XVIe siècle."
+  },
+  {
+    "ctx": "ENCPOS_1970_07_1_chunk_0",
+    "question": "Quelles méthodes sont mobilisées pour analyser les pratiques épistolaires au siècle des Lumières ?",
+    "label": "Méthodologique",
+    "answer": "Les méthodes incluent l’analyse textuelle, la cartographie des correspondances, l’étude des supports matériels et des réseaux sociaux pour comprendre les usages intellectuels et affectifs de la lettre."
+  },
+  {
+    "ctx": "ENCPOS_1926_07_8_chunk_1",
+    "question": "Quel était le rôle de la milice bourgeoise dans les villes de Flandre au XVe siècle ?",
+    "label": "Historique",
+    "answer": "La milice bourgeoise assurait la défense urbaine, participait à la surveillance des rues et constituait un instrument de contrôle politique exercé par les élites marchandes flamandes."
+  },
+  {
+    "ctx": "ENCPOS_1972_09_5_chunk_0",
+    "question": "Quelle place occupent les enfants dans les sources judiciaires de l’Ancien Régime ?",
+    "label": "Conceptuel",
+    "answer": "Les enfants apparaissent comme sujets et objets du droit, avec des statuts spécifiques dans les procédures criminelles, les tutelles et les infractions mineures sous l’Ancien Régime."
+  },
+  {
+    "ctx": "ENCPOS_2018_14_6_chunk_0",
+    "question": "Quels apports les données massives offrent-elles à l’étude des bibliothèques anciennes ?",
+    "label": "Prospective",
+    "answer": "Les données massives permettent d’identifier des patterns de circulation, de recomposer des provenances complexes et de modéliser les réseaux intellectuels autour des bibliothèques anciennes."
+  },
+  {
+    "ctx": "ENCPOS_1998_07_5_chunk_1",
+    "question": "Comment les sceaux féminins diffèrent-ils des sceaux masculins au Moyen Âge ?",
+    "label": "Comparatif",
+    "answer": "Les sceaux féminins présentent souvent des éléments iconographiques distincts, une moindre fréquence et un usage plus circonstancié que les sceaux masculins, reflétant des rôles sociaux différenciés."
+  },
+  {
+    "ctx": "ENCPOS_1956_06_4_chunk_0",
+    "question": "Comment la langue des actes notariés reflète-t-elle les pratiques sociales dans la Provence médiévale ?",
+    "label": "Conceptuel",
+    "answer": "La langue des actes notariés en Provence médiévale révèle une coexistence entre le latin juridique et les usages vernaculaires, traduisant des pratiques sociales hybrides et des stratégies de communication juridique."
+  },
+  {
+    "ctx": "ENCPOS_1999_12_7_chunk_1",
+    "question": "Quels sont les enjeux liés à la mise en ligne des corpus liturgiques médiévaux ?",
+    "label": "Prospective",
+    "answer": "La mise en ligne soulève des enjeux de normalisation des formats, de respect des particularismes locaux, d’interopérabilité des métadonnées et de valorisation scientifique auprès de publics divers."
+  },
+  {
+    "ctx": "ENCPOS_2001_06_2_chunk_0",
+    "question": "Quel type de données les cadastres anciens fournissent-ils sur la société rurale ?",
+    "label": "Conceptuel",
+    "answer": "Les cadastres fournissent des données précises sur la propriété foncière, les structures agricoles, la fiscalité et les hiérarchies sociales dans les campagnes d’Ancien Régime."
+  },
+  {
+    "ctx": "ENCPOS_1939_11_9_chunk_0",
+    "question": "Quels indices les registres de jurandes fournissent-ils sur les métiers urbains au XVIIIe siècle ?",
+    "label": "Conceptuel",
+    "answer": "Les registres de jurandes renseignent sur l’organisation des métiers, la formation professionnelle, les conflits de compétence et les stratégies économiques des artisans urbains au XVIIIe siècle."
+  },
+  {
+    "ctx": "ENCPOS_2000_08_6_chunk_1",
+    "question": "Quels rôles jouent les bibliothèques privées dans la vie intellectuelle au XIXe siècle ?",
+    "label": "Historique",
+    "answer": "Les bibliothèques privées servent de lieux de savoir, de sociabilité savante et de constitution d’identités culturelles, jouant un rôle moteur dans la diffusion intellectuelle au XIXe siècle."
+  },
+  {
+    "ctx": "ENCPOS_1880_08_1_chunk_0",
+    "question": "Quel impact la Réforme a-t-elle eu sur l’organisation des chapitres cathédraux en France ?",
+    "label": "Historique",
+    "answer": "La Réforme protestante a provoqué une réorganisation des chapitres cathédraux, une redéfinition des fonctions canoniques et une affirmation plus nette de leur rôle pastoral face aux contestations doctrinales."
+  },
+  {
+    "ctx": "ENCPOS_1979_15_3_chunk_0",
+    "question": "Comment la presse périodique participe-t-elle à la construction de l’opinion publique au XVIIIe siècle ?",
+    "label": "Historique",
+    "answer": "La presse périodique favorise la diffusion d’idées, l’émergence d’un espace critique et la formation progressive d’une opinion publique informée au XVIIIe siècle."
+  },
+  {
+    "ctx": "ENCPOS_2021_18_9_chunk_0",
+    "question": "Quels sont les défis posés par la reconnaissance automatique des écritures manuscrites anciennes ?",
+    "label": "Prospective",
+    "answer": "Les défis incluent la variabilité graphique, la segmentation des lignes, l’apprentissage supervisé des modèles et l’intégration de corrections humaines pour fiabiliser la reconnaissance automatique."
+  },
+  {
+    "ctx": "ENCPOS_1987_02_1_chunk_0",
+    "question": "Comment les inventaires ecclésiastiques post-tridentins participent-ils à la réforme catholique ?",
+    "label": "Historique",
+    "answer": "Les inventaires ecclésiastiques post-tridentins visent à contrôler les objets liturgiques, à moraliser le culte et à affirmer l’autorité épiscopale dans le cadre de la Réforme catholique."
+  },
+  {
+    "ctx": "ENCPOS_1904_05_13_chunk_0",
+    "question": "Quelle est la valeur juridique des lettres de rémission sous l’Ancien Régime ?",
+    "label": "Conceptuel",
+    "answer": "Les lettres de rémission ont une valeur juridique de grâce royale, suspendant les poursuites en échange d’un récit détaillé des faits, sous réserve d’honorabilité sociale du demandeur."
+  },
+  {
+    "ctx": "ENCPOS_2009_18_14_chunk_1",
+    "question": "Comment les plateformes collaboratives transforment-elles l’édition des corpus historiques ?",
+    "label": "Prospective",
+    "answer": "Elles permettent une annotation partagée, une validation collective, un enrichissement progressif des métadonnées et une diffusion élargie des corpus historiques auprès de divers publics."
+  },
+  {
+  "ctx": "ENCPOS_1849_01_2_chunk_0",
+  "question": "Quelles caractéristiques distinguent la conspiration des bourgeois de 1112 sous l’abbé Albéric des insurrections antérieures ?",
+  "label": "Historique",
+  "answer": "La conspiration des bourgeois de 1112 se distingue par sa préparation méthodique, la répartition des rôles parmi les conjurés, l'organisation armée de leur participation à l’assemblée pour élire le maire, et la coordination avec des chevaliers extérieurs. Contrairement aux précédentes tentatives, elle prit une ampleur stratégique avant d’être déjouée."
+},
+  {
+  "ctx": "ENCPOS_1910_12_14_chunk_0",
+  "question": "Quelles revendications principales les États d’Artois formulent-ils à l’occasion des États généraux de 1614 ?",
+  "label": "Historique",
+  "answer": "Les États d’Artois réclament la défense du catholicisme, la limitation des charges fiscales, la préservation des privilèges provinciaux, ainsi que la régularité des convocations des États généraux."
+},
+  {
+  "ctx": "ENCPOS_2008_13_18_chunk_0",
+  "question": "Comment l’étude sur Michel Liénard éclaire-t-elle les choix urbanistiques au Havre entre 1830 et 1870 ?",
+  "label": "Historique",
+  "answer": "L’étude met en lumière l’influence des contextes politique, économique et social sur les projets d’aménagement du Havre, en confrontant la pensée architecturale de Michel Liénard à ses pratiques concrètes entre 1830 et 1870."
+},
+  {
+  "ctx": "ENCPOS_1914_05_1_chunk_0",
+  "question": "Comment l’exploitation forestière évolue-t-elle de la préhistoire au Moyen Âge ?",
+  "label": "Historique",
+  "answer": "Depuis la préhistoire, la forêt est utilisée par les populations, mais son exploitation s’intensifie à l’époque gallo-romaine pour les besoins en construction et chauffage, avant de connaître de vastes défrichements au Moyen Âge en raison de la croissance démographique."
+},
+  {
+  "ctx": "ENCPOS_1897_06_7_chunk_0",
+  "question": "Quelle correction chronologique est apportée au début des Annales de Flodoard ?",
+  "label": "Conceptuel",
+  "answer": "Le début des Annales de Flodoard, souvent daté de 919, doit en réalité être corrigé à l’année 922 selon l’analyse des manuscrits."
+},
+  {
+  "ctx": "ENCPOS_1948_08_13_chunk_0",
+  "question": "Quels motifs ornementaux caractérisent les chapiteaux du Xe siècle et quelle est leur portée symbolique ?",
+  "label": "Conceptuel",
+  "answer": "Les chapiteaux du Xe siècle présentent des figures animales stylisées comme des lions, serpents ou aigles, souvent porteuses de symboles religieux ou moraux, inscrits dans une symbolique médiévale spécifique."
+},
+  {
+  "ctx": "ENCPOS_1894_07_4_chunk_0",
+  "question": "Comment les baux des fermiers généraux évoluent-ils entre 1730 et 1760, et que révèlent-ils des rapports entre État et fermiers ?",
+  "label": "Historique",
+  "answer": "Entre 1730 et 1760, les baux des fermiers généraux se complexifient, ce qui reflète un renforcement du contrôle étatique et des stratégies juridiques développées par les fermiers pour défendre leurs intérêts."
+},
+  {
+  "ctx": "ENCPOS_2014_21_5_chunk_1",
+  "question": "Quel rôle la médiation familiale attribue-t-elle aux parents dans le cadre des dispositifs judiciaires contemporains ?",
+  "label": "Conceptuel",
+  "answer": "La médiation familiale confère aux parents un rôle de médiateurs écoutés par les enfants, appuyé par une anthropologie de la filiation et de la parole, en interaction avec les dispositifs judiciaires."
+},
+  {
+  "ctx": "ENCPOS_1909_10_8_chunk_0",
+  "question": "Quels éléments paléographiques du XIIe siècle révèlent l’influence de l’époque carolingienne ?",
+  "label": "Historique",
+  "answer": "Les manuscrits du XIIe siècle présentent des traits d’écriture hérités de la période carolingienne, ce qui reflète une continuité de la tradition savante médiévale."
+},
+  {
+  "ctx": "ENCPOS_1924_09_12_chunk_0",
+  "question": "Quels moyens le prieur de Saint-Gilles mobilise-t-il pour affirmer l’autorité de son monastère sur des établissements éloignés ?",
+  "label": "Historique",
+  "answer": "Le prieur de Saint-Gilles cherche à affirmer son autorité sur des établissements distants par une centralisation administrative et des revendications juridiques spécifiques."
+},
+  {
+  "ctx": "ENCPOS_1897_09_7_chunk_0",
+  "question": "Quel rôle Guillaume aux Blanches-Mains joue-t-il dans le développement des écoles cathédrales et la vie ecclésiastique ?",
+  "label": "Historique",
+  "answer": "Guillaume aux Blanches-Mains contribua à l’organisation des écoles cathédrales et joua un rôle actif dans les affaires ecclésiastiques, notamment par son influence au concile de Latran."
+},
+{
+  "ctx": "ENCPOS_1990_14_1_chunk_0",
+  "question": "Quel objectif peut être attribué à la mise en scène architecturale des frères Keller ?",
+  "label": "Prospective",
+  "answer": "La mise en scène architecturale des frères Keller semble viser à rivaliser avec les grands modèles parisiens, en réinterprétant localement les codes de la monumentalité urbaine."
+},
+  {
+  "ctx": "ENCPOS_2005_19_6_chunk_0",
+  "question": "Quelles caractéristiques définissent l’exploitation rurale dans les paysages de bocage au XXe siècle ?",
+  "label": "Historique",
+  "answer": "L’exploitation rurale dans les bocages est marquée par un sol difficile, un entretien constant, un morcellement des parcelles, un réseau dense de haies et une faible mécanisation prolongeant les pratiques traditionnelles jusqu’au milieu du XXe siècle."
+},
+  {
+  "ctx": "ENCPOS_1987_07_5_chunk_0",
+  "question": "Quelle signification théologique se dégage de l’iconographie des portails sculptés au XIIe siècle ?",
+  "label": "Conceptuel",
+  "answer": "L’iconographie hiérarchisée centrée sur le Jugement dernier traduit une visée didactique et reflète une conception théologique ordonnée du salut."
+},
+  {
+  "ctx": "ENCPOS_2017_04_3_chunk_0",
+  "question": "Comment le profil de Jacques de Saint Pardoux illustre-t-il l’hybridité des carrières érudites au XVIIe siècle ?",
+  "label": "Historique",
+  "answer": "Jacques de Saint Pardoux incarne un profil hybride typique du XVIIe siècle, combinant formation curiale, fonction d’archiviste et activité d’historiographe, entre culture administrative et érudition historique."
+},
+  {
+  "ctx": "ENCPOS_1998_29_16_chunk_0",
+  "question": "Quels sont les thèmes iconographiques au Moyen-Âge ?",
+  "label": "Conceptuel",
+  "answer": ""
+},
+  {
+  "ctx": "ENCPOS_1935_04_1_chunk_0",
+  "question": "Quels principes spirituels motivent la fondation de l’abbaye de Savigny ?",
+  "label": "Conceptuel",
+  "answer": "La fondation de Savigny repose sur des principes issus de la réforme bénédictine, mettant en avant la rigueur de la règle, l’ascèse, la vie communautaire et une réaction contre la mondanisation du clergé."
+},
+  {
+  "ctx": "ENCPOS_1942_15_4_chunk_0",
+  "question": "Quelle est l’importance de la version en prose du Miracle de Théophile dans l’histoire de la littérature religieuse ?",
+  "label": "Historique",
+  "answer": "La version en prose française du Miracle de Théophile, apparue au XIIIe siècle, témoigne de la diffusion des récits religieux dans la littérature vernaculaire avant leur adaptation dramatique."
+},
+  {
+  "ctx": "ENCPOS_1898_05_2_chunk_0",
+  "question": "Comment peut-on interpréter la trajectoire politique de ce serviteur passé successivement au service du duc d’Alençon, du roi de Navarre, puis du roi de France ?",
+  "label": "Historique",
+  "answer": "La trajectoire montre un positionnement politique pragmatique, marqué par une adaptation aux retournements de conjoncture et aux évolutions du pouvoir."
+},
+  {
+  "ctx": "ENCPOS_2012_06_15_chunk_0",
+  "question": "Quelle tension les pratiques de confiscation révèlent-elles durant la Révolution française ?",
+  "label": "Conceptuel",
+  "answer": "Les pratiques de confiscation révèlent une tension entre les idéaux juridiques révolutionnaires et les réalités sociales, bien qu’elles ne soient pas toujours formellement évoquées dans les discours."
+},
+  {
+  "ctx": "ENCPOS_2022_03_2_chunk_0",
+  "question": "Que révèle l’itinéraire d’un jeune homme passant de la cléricature à l’armée au XVIIIe siècle ?",
+  "label": "Historique",
+  "answer": "Cet itinéraire illustre une forme de mobilité sociale masculine au XVIIIe siècle, où les choix familiaux initiaux peuvent être réorientés vers une carrière militaire."
+},
+  {
+  "ctx": "ENCPOS_1899_01_2_chunk_1",
+  "question": "Quels sont les effets de la victoire d’Alexis en 1081 sur la situation politique byzantine ?",
+  "label": "Historique",
+  "answer": "La victoire d’Alexis en juillet 1081 contre les rebelles renforce son autorité impériale et consolide la position de l’Empire byzantin dans les Balkans."
+},
+  {
+  "ctx": "ENCPOS_1892_05_1_chunk_4",
+  "question": "Que révèlent les relations entre la cour royale et les seigneurs locaux dans les années 1446 à 1452 ?",
+  "label": "Historique",
+  "answer": "Les lettres royales, pensions et mandements entre 1446 et 1452 révèlent une politique de rapprochement progressif entre le pouvoir central et les seigneurs locaux."
+},
+  {
+  "ctx": "ENCPOS_2020_13_4_chunk_1",
+  "question": "Quels défis spécifiques posent les parcours éducatifs des enfants sans papiers aux institutions scolaires ?",
+  "label": "Méthodologique",
+  "answer": "Les enfants sans papiers cumulent des handicaps tels que la précarité sociale, l’isolement linguistique et des ruptures éducatives, ce qui oblige les institutions à adapter leurs méthodes d’accompagnement."
+},
+  {
+  "ctx": "ENCPOS_1998_29_17_chunk_0",
+  "question": "Quelle est la portée de la diffusion manuscrite de La Mort le roi Artu dans le cycle arthurien ?",
+  "label": "Historique",
+  "answer": "La diffusion manuscrite de La Mort le roi Artu est restreinte, associée à un lectorat de clercs lettrés et à une circulation contrôlée dans le cadre du cycle arthurien."
+},
+  {
+  "ctx": "ENCPOS_1988_16_11_chunk_0",
+  "question": "Quelles sources sont nécessaires pour étudier la vie des étrangers dans une approche incarnée ?",
+  "label": "Méthodologique",
+  "answer": "Outre les archives administratives, l’étude de la vie des étrangers nécessite le recours aux sources judiciaires, hospitalières et aux correspondances privées afin de restituer leurs parcours de manière plus incarnée."
+},
+  {
+  "ctx": "ENCPOS_1984_05_2_chunk_0",
+  "question": "Quelles sources permettent d’étudier la structure des familles urbaines au XVIIe siècle ?",
+  "label": "Méthodologique",
+  "answer": "Les registres paroissiaux, les actes notariés et les archives judiciaires, pris ensemble, permettent d’analyser la structure des familles urbaines au XVIIe siècle."
+},
+  {
+  "ctx": "ENCPOS_1982_11_6_chunk_0",
+  "question": "Quel rôle joue la distinction entre pauvres méritants et pauvres suspects dans les politiques municipales d’assistance au XVIIIe siècle ?",
+  "label": "Conceptuel",
+  "answer": "Au XVIIIe siècle, les politiques municipales d’assistance distinguent les pauvres méritants des pauvres suspects, selon une conception morale de la pauvreté qui conditionne l’octroi des secours."
+},
+  {
+  "ctx": "ENCPOS_2017_11_2_chunk_0",
+  "question": "Quels aspects de la vie monastique les comptes permettent-ils de documenter ?",
+  "label": "Historique",
+  "answer": "Les comptes permettent de documenter l’entretien des bâtiments, l’alimentation des religieux, les soins aux malades, et plus généralement les conditions matérielles de la vie monastique."
+},
+  {
+  "ctx": "ENCPOS_1906_01_1_chunk_0",
+  "question": "Quel rôle l’abbé Smaragde a-t-il joué dans le contexte de la réforme carolingienne ?",
+  "label": "Historique",
+  "answer": "L’abbé Smaragde fut conseiller de Louis le Pieux et joua un rôle actif dans la réforme carolingienne, en lien avec sa formation et sa fonction à Saint-Mihiel."
+},
+  {
+  "ctx": "ENCPOS_1858_03_14_chunk_0",
+  "question": "En quoi les synodes contribuent-ils à la régulation des pratiques ecclésiastiques au XIIIe siècle ?",
+  "label": "Conceptuel",
+  "answer": "Les synodes jouent un rôle central dans la régulation des pratiques ecclésiastiques au XIIIe siècle en permettant la prise de décisions disciplinaires au sein des structures locales."
+},
+  {
+  "ctx": "ENCPOS_1885_13_10_chunk_0",
+  "question": "Comment le règne de Philippe III contribue-t-il à la centralisation monarchique ?",
+  "label": "Historique",
+  "answer": "Le règne de Philippe III renforce la centralisation monarchique en menant une réorganisation administrative fondée sur des réseaux de fidèles et de juristes, au-delà de simples réponses aux crises."
+},
+{
+  "ctx": "ENCPOS_2000_13_11_chunk_0",
+  "question": "Quels thèmes dominent la correspondance entre les religieux de Paris et de Charenton au XVIIe siècle ?",
+  "label": "Historique",
+  "answer": "La correspondance entre les religieux de Paris et de Charenton au XVIIe siècle porte principalement sur les enjeux doctrinaux et les débats liturgiques, illustrant une vigilance théologique et un souci de coordination communautaire."
+},
+  {
+  "ctx": "ENCPOS_1991_17_14_chunk_0",
+  "question": "Que révèle l’accès successif des Moreau aux charges municipales à Reims entre 1666 et 1688 ?",
+  "label": "Historique",
+  "answer": "L’accès successif des membres de la famille Moreau aux fonctions municipales à Reims entre 1666 et 1688 traduit une stratégie d’enracinement familial et l’usage de réseaux urbains."
+}
+]

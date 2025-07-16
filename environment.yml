@@ -1,8 +1,9 @@
 name: qa_rag_env
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.10
   - jupyter
-prefix: /Users/lucaterre/anaconda3/envs/qa_rag_env
-
+  - jupyterlab
+  - streamlit

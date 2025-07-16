@@ -1,38 +1,71 @@
 # encpos-qa-rag
 
-[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Conda](https://img.shields.io/badge/conda-available-green.svg)](https://docs.conda.io/en/latest/)
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 
-A Question-answering RAG (Retrieval-augmented generation) pipeline for positions de thèses de l'ENC (ENCPOS).
+
+This repository all the notebooks, code, application and ressources (data) for the RAG LLM pipeline 
+for "Postions de thèses" corpora de l'École nationale des chartes.
+
+### installation
+
+- Clone the repository:
+```bash
+git clone ...
+cd encpos-qa-rag/
+```
+
+- run make file: 
+```bash
+make
+```
+
+or
+
+- create a conda environment:
+```
+conda env create -f environment.yml
+```
+
+- activate the environment:
+```bash
+conda activate qa_rag_env
+```
+
+- install requirements:
+```bash
+pip3 install -r requirements.txt
+```
+
+- First start by download [retrievers.zip]()
+- Unzip the file in the `data/` directory
+
+
+Now you can run the notebooks in the `notebooks/` directory or the Streamlit app in the `app/` directory.
 
 
 #### [`notebooks/`](./notebooks) 
 
-| Fichier                                                                        | Description                                                                                            |
-|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [`01-chunking_vector_index.ipynb`](./notebooks/01-chunking_vector_index.ipynb) | Préparation et analyse des données, stratégie chunking, vectorisation, indexation et test du retriever |
-| [`02-assemble_qa_rag.ipynb`](./notebooks/02-assemble_qa_rag.ipynb)                                                 | Pipeline RAG (Retriever+LLM) pour les positions de thèses de l'ENC                                     |
+=> le fichier config.yml contient les paramètres de chunking et de prétraitement des données
+
+| Fichier                                                                    | Description                                                                                |
+|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`01-prepare_chunk_corpus.ipynb`](notebooks/01-prepare_chunk_corpus.ipynb) | Préparation et analyse des données, stratégie chunking                                     |
+| [`02-create_retrievers.ipynb`](notebooks/02-create_retrievers.ipynb)       | Création des différentes bases vectorielles (Retriever)                                    |
+| [`03-assemble_rag.ipynb`](notebooks/03-create_qa_rag.ipynb)                | Création du Reader et du pipeline RAG (Retriever+LLM) pour les positions de thèses de l'ENC |
 
 
-=> décrire les données
-=> scraper via Dots 
-=> prétraitement chunking par sections et avec paramtères de chunking voir le config.yml
-=> via Dataiku
-=> section max et section min en caractères et en tokens
+#### test app 
 
--> installer et lancer
+Check a specific documentation for [streamlit application](app/README.md)
 
--> arborescence des dossiers 
-
--> ajouter schéma 
-
--> lien article CR DH2025
-
--> tester app avec dans dossier preuve de concept HuggingFace Spaces ? 
-
+#### tree directory 
+```bash
+|-- encpos-qa-rag
+  |-- data/
 
 ### Citation 
 

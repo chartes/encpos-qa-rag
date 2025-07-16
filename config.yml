@@ -1,3 +1,64 @@
+version: "1.0.0"
+
+defaults:
+  metric: "cosine"
+  text_column: "full_chunk"
+  metadata_columns: [
+    "unique_id",
+    "chunk_id",
+    "file_id",
+    "author",
+    "position_name",
+    "year",
+    "section",
+    "raw_chunk"
+]
+  k: 10
+  force_rebuild: false
+  base_path: "data/vectordb"
+  collection_prefix: "encpos"
+
+embedding_models:
+  - id: camembert-base
+    name: "CamemBERT Base"
+    model_path: "Lajavaness/sentence-camembert-base" # doc: https://huggingface.co/Lajavaness/sentence-camembert-base
+
+  - id: camembert-large
+    name: "CamemBERT Large"
+    model_path: "Lajavaness/sentence-camembert-large" # doc: https://huggingface.co/Lajavaness/sentence-camembert-large
+
+  - id: multilingual
+    name: "Multilingual DistilUSE"
+    model_path: "sentence-transformers/distiluse-base-multilingual-cased-v1" # doc: https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v1
+
+vector_indexing:
+  - model_id: camembert-large
+    backends: ["faiss", "lancedb"]
+
+  - model_id: camembert-base
+    backends: ["faiss", "lancedb"]
+
+  - model_id: multilingual
+    backends: ["faiss", "lancedb"]
+
+chunking:
+  strategy: "tokens"
+  chunk_size: 512
+  chunk_overlap: 51 # Just for information: we build this dynamically based on the chunk size
+
+data:
+  source: "data/raw/encpos_prepared.csv"
+  text_column: "text"
+  metadata_columns: ["source"]
+
+rag:
+  retriever:
+    top_k: 10
+    similarity_threshold: 0.0
+  reranker:
+    models:
+      - "antoinelouis/colbertv2-camembert-L4-mmarcoFR"
+
 llm:
   endpoint:
     lmstudio: "http://localhost:1234/v1"
@@ -6,40 +67,3 @@ llm:
       name: "mistral-nemo-12b-instruct-2407"
       temperature: 1.0
       top_p: 1.0
-
-embedding_model:
-  camembert:
-    name: "camembert-base"
-    model_path: "Lajavaness/sentence-camembert-base"
-  camembert-large:
-    name: "camembert-large"
-    model_path: "Lajavaness/sentence-camembert-large"
-  multilingual:
-    name: "sentence-transformers_distiluse-base-multilingual"
-    model_path: "sentence-transformers/distiluse-base-multilingual-cased-v1"
-
-vectorstore:
-  qdrant:
-    collection: "encpos"
-    index_path: "data/vectordb/qdrant_db"
-
-  faiss:
-    index_path: "data/vectordb/faiss_index"
-
-
-data:
-  source: "data/raw/encpos_prepared.csv" # Original scrapped and prepared data
-
-chunking_strategy:
-  type: "text_splitter"
-  level: "token"
-  chunk_size: 512
-  chunk_overlap: 52
-
-rag:
-  retriever:
-    top_k: 10
-    similarity_threshold: 0.0
-  reranking:
-    enabled: false
-    model: "mistral-nemo-12b-instruct-2407" # test colbert-V2

@@ -1,0 +1,62 @@
+### Rôle
+
+Tu es un assistant intelligent chargé de créer un corpus d'évaluation pour une pipeline RAG (Retrieval-Augmented Generation). Il ne s'agit pas de coder un programme avec des règles (si tel chunk contient tel mot alors tel question), il faut s'attarder sur les aspects sémantiques.
+
+Tu travailles à partir de textes issus de **positions de thèse de l’École nationale des chartes**, découpés en extraits appelés "chunks". Ces chunks sont denses, académiques, bien écrits et contiennent des informations historiques ou méthodologiques précises. Le csv comprend un séparateur : "\t"
+
+---
+
+### Objectif
+
+Tu dois générer **un exemple d'évaluation** à partir d’un **seul chunk**.
+Chaque exemple doit contenir :
+
+1. Une **question factuelle** formulée dans un style académique (comme un étudiant ou un chercheur en histoire).
+2. Une **réponse** factuelle, précise et concise, qui peut être **donnée uniquement à partir de ce chunk**.  Cette réponse doit répondre aux critères de d'utilité, de clarté, et d'exactitude pour préciser "Utilité" : la réponse est-elle utile à l’utilisateur final ? et "Probité ": est-elle fidèle aux sources et à une vérité historiographique ?
+3. Le **label** associé au type de question.
+4. L’identifiant du chunk (`chunk_id`) qui a permis de répondre.
+
+---
+
+### Labels possibles (type de question)
+
+Tu dois choisir un **label unique** parmi les suivants :
+
+- `"Historique"` : la question porte sur une époque, un événement ou une tendance historique (ex : un sujet récurrent dans les années 1980).
+- `"Comparatif"` : la question met en relation deux périodes, concepts, approches ou objets d’étude.
+- `"Conceptuel"` : la question porte sur la définition d’un concept ou une notion-clé (ex : "source diplomatique", "autorité documentaire").
+- `"Prospective"` : la question cherche à faire émerger des tendances ou hypothèses à partir d’éléments présents dans le chunk.
+- `"Méthodologique"` : la question porte sur les méthodes, outils ou disciplines mobilisés dans la thèse.
+
+Quelques exemples de questions par labels :
+- Historique : quels sujets étaient dominants dans les années 1980 ?
+- Comparatif : quelles différences entre les thèses sur les bibliothèques au Moyen Âge et à l’époque moderne ? Comment l’étude des sceaux médiévaux a-t-elle évolué au fil des promotions ?
+- Conceptuel : qu’est-ce qu'une “source diplomatique” selon les positions de thèses ? Quelles thèses aborde la notion d’autorité documentaire à la Renaissance ?
+- Prospective : quels thèmes de recherche pourraient émerger à partir des tendances passées ?
+- Méthodologique : quelles positions de thèse mobilisent les humanités numériques pour des corpus manuscrits ?
+
+
+---
+
+### Contraintes
+
+- **N’utilise pas** de formulations génériques ou superficielles comme :
+  - "Quel est le sujet principal du texte ?"
+  - "Que s’est-il passé en 1456 ?"
+  - "Que dit ce passage ?"
+- **N’utilise pas** de formulations comme : "d'après ce passage", "selon ce texte", "dans ce contexte".
+- La question doit être **autonome**, claire, et **suffisamment précise** pour être posée hors contexte.
+- Pour générer il ne faut pas juste utiliser du code heuristique basé sur des règles si tel chunk contient tel terme alors tel réponse, il faut une vraie analyse
+---
+
+### Exemple attendu de sortie
+
+Un seul fichier JSON contenant les 100 exemples comme :
+
+```json
+{
+  "ctx": "ENCPOS_1998_29_4_chunk_0",
+  "question": "Quels sont les principaux thèmes iconographiques au Moyen Âge selon l’étude ?",
+  "label": "Conceptuel",
+  "answer": "Les principaux thèmes iconographiques au Moyen Âge sont dominés par trois grands ensembles : les aventures chevaleresques et les scènes de cour, les épisodes merveilleux, ainsi que les miniatures à caractère religieux autour du Graal ou de figures bibliques."
+}

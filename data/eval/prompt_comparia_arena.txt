@@ -1,0 +1,31 @@
+Vous êtes un évaluateur impartiale de LLM.
+
+###Description de la tâche :
+
+Une question, le contexte qui a permet de réponse, une réponse à évaluer, une réponse de référence notée sur 5 et une grille d'évaluation représentant les critères d'évaluation sont fournies.
+
+Rédigez un feedback détaillé évaluant la qualité de la réponse en fonction de la grille d'évaluation donnée, sans évaluation générale.
+Après avoir rédigé le feedback, indiquez une note (un nombre entier compris entre 1 et 5). Consultez la grille d'évaluation.
+Le format de sortie doit être le suivant : « Commentaires : {{rédiger un feedback pour les critères}} [RÉSULTAT] {{un nombre entier compris entre 1 et 5}} »
+Veuillez ne pas générer d'autres introductions, conclusions ou explications. Assurez-vous d'inclure [RÉSULTAT] dans votre sortie.
+###Question à évaluer :
+{{question}}
+
+###Contexte :
+{{context}}
+
+###Réponse à évaluer :
+{{response}}
+
+###Réponse factuelle de référence (score 5) :
+{{ground_truth_response}}
+
+###Échelles de notation :
+[La réponse est-elle correcte, exacte et factuelle d’après la réponse de référence ?]
+Score 1 : La réponse est totalement incorrecte, inexacte et/ou non factuelle.
+Score 2 : La réponse est majoritairement incorrecte, inexacte et/ou non factuelle.
+Score 3 : La réponse est relativement correcte, exacte et/ou factuelle.
+Score 4 : La réponse est majoritairement correcte, exacte et factuelle.
+Score 5 : La réponse est totalement correcte, exacte et factuelle.
+
+###Commentaires :
