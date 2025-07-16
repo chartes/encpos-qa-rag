@@ -7,23 +7,22 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 
 
-This repository all the notebooks, code, application and ressources (data) for the RAG LLM pipeline experiments
-for "Postions de thèses" corpora de l'École nationale des chartes.
+This repository contains notebooks, code, application and ressources for the RAG LLM pipeline experiments
+for ["Postions de thèses"](https://theses.chartes.psl.eu/) corpora de l'École nationale des chartes.
 
 ### Installation
 
 - Clone the repository:
 ```bash
-git clone ...
+git clone https://github.com/chartes/encpos-qa-rag.git
 cd encpos-qa-rag/
 ```
 
-- run make file: 
+#### Option A: Using makefile
 ```bash
 make
 ```
-
-or
+#### Option B: Manual installation
 
 - create a conda environment:
 ```
@@ -52,11 +51,11 @@ pip3 install -r requirements.txt
 > [!WARNING] 
 > Some data are already calculated and stored in the `data/` directory, you can use them directly without re-running the notebooks.
 
-| Fichier                                                                    | Description                                                                                |
-|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [`01-prepare_chunk_corpus.ipynb`](notebooks/01-prepare_chunk_corpus.ipynb) | Préparation et analyse des données, stratégie chunking                                     |
-| [`02-create_retrievers.ipynb`](notebooks/02-create_retrievers.ipynb)       | Création des différentes bases vectorielles (Retriever)                                    |
-| [`03-assemble_rag.ipynb`](notebooks/03-create_qa_rag.ipynb)                | Création du Reader et du pipeline RAG (Retriever+LLM) pour les positions de thèses de l'ENC |
+| Fichier                                                                    | Description                                                                                  |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [`01-prepare_chunk_corpus.ipynb`](notebooks/01-prepare_chunk_corpus.ipynb) | Data analysis, preprocessing and chunking of the corpus of longform abstracts                |
+| [`02-create_retrievers.ipynb`](notebooks/02-create_retrievers.ipynb)       | Vectorstore database creation (Retriever)                                                    |
+| [`03-assemble_rag.ipynb`](notebooks/03-create_qa_rag.ipynb)                | Assemble the RAG pipeline with the retriever and the reader (generation part with LLM model) |
 
 
 ### [Streamlit application](./app/)
