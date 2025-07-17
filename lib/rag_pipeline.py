@@ -251,7 +251,7 @@ class RAGPipeline:
             return [(doc, 1.0) for doc in docs]
 
         else:
-            logging.warning("⚠️ Aucun retriever actif.")
+            logging.warning("⚠️ No retriever.")
             return []
 
     def rerank_documents(self, docs: List[Tuple[Document, float]]) -> List[Tuple[Document, float]]:
