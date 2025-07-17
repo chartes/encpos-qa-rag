@@ -42,6 +42,10 @@ pip3 install -r requirements.txt
 - First start by download [retrievers.zip](https://github.com/chartes/encpos-qa-rag/releases/download/0.0.1/retrievers.zip)
 - Unzip the file in the `data/` directory
 
+### (To use Generation part) Run [LMStudio](https://lmstudio.ai/) server 
+
+> In LMStudio, download and serve the LLM `mistral-nemo-instruct-2407` (model we use for this experiment).
+
 
 ### [Notebooks](./notebooks) 
 
