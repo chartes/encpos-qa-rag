@@ -326,7 +326,7 @@ class RAGPipeline:
     async def _stream_and_print(self, prompt: str, timeout=100000) -> str:
         full_response = ""
         if self.use_notebook:
-            output_display = display(Markdown("🟡 Génération en cours..."), display_id=True)
+            output_display = display(Markdown("🟡 Processing..."), display_id=True)
 
         async def _run_stream():
             nonlocal full_response
@@ -363,9 +363,9 @@ class RAGPipeline:
             result = await self.llm.ainvoke(prompt)
             raw_response = getattr(result, "content", str(result))
             if self.use_notebook:
-                display(Markdown("✅ **Génération terminée**"))
+                display(Markdown("✅ **finished**"))
             else:
-                print("\n✅ Réponse générée.")
+                print("\n✅ response OK")
             cleaned = self._finalize_response(raw_response, use_conclusion=use_conclusion)
             if self.use_notebook:
                 display(Markdown(cleaned.replace("\n", "\n\n")))
