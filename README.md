@@ -39,7 +39,7 @@ conda activate qa_rag_env
 pip3 install -r requirements.txt
 ```
 
-- First start by download [retrievers.zip]()
+- First start by download [retrievers.zip](https://github.com/chartes/encpos-qa-rag/releases/download/0.0.1/retrievers.zip)
 - Unzip the file in the `data/` directory
 
 
@@ -54,7 +54,7 @@ pip3 install -r requirements.txt
 | Fichier                                                                    | Description                                                                                  |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [`01-prepare_chunk_corpus.ipynb`](notebooks/01-prepare_chunk_corpus.ipynb) | Data analysis, preprocessing and chunking of the corpus of longform abstracts                |
-| [`02-create_retrievers.ipynb`](notebooks/02-build_vectordb.ipynb)       | Vectorstore database creation (Retriever)                                                    |
+| [`02-build_vectordb.ipynb`](notebooks/02-build_vectordb.ipynb)             | Vectorstore database creation (Retriever)                                                    |
 | [`03-assemble_rag.ipynb`](notebooks/03-create_qa_rag.ipynb)                | Assemble the RAG pipeline with the retriever and the reader (generation part with LLM model) |
 
 

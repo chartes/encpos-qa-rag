@@ -14,7 +14,7 @@ defaults:
     "raw_chunk"
 ]
   k: 10
-  force_rebuild: false
+  force_rebuild: False
   base_path: "data/retrievers/vectordb"
   collection_prefix: "encpos"
 

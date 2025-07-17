@@ -17,8 +17,11 @@ install-pip-requirements:
 
 download-retrievers-from-github:
 	@echo "Download retrievers from GitHub..."
-	@curl -o data/retrievers ...
+	@curl -o data/retrievers https://github.com/chartes/encpos-qa-rag/releases/download/0.0.1/retrievers.zip
 
 unzip-retrievers:
 	@echo "Unzip retrievers..."
-	@unzip -o data/retrievers.zip -d data/retrievers
+	@mkdir -p data
+	@curl -L -o data/retrievers.zip https://github.com/chartes/encpos-qa-rag/releases/download/0.0.1/retrievers.zip
+	@rm data/retrievers.zip
+	@echo "Retrievers unzipped to data/retrievers directory."

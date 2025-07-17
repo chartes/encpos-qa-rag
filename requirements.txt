@@ -16,7 +16,6 @@ onnxruntime
 openai
 pandas
 PyYAML
-PyYAML
 qdrant_client
 scikit_learn
 seaborn
@@ -28,3 +27,4 @@ tqdm
 transformers
 umap
 tabulate
+lmstudio
