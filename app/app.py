@@ -6,34 +6,34 @@ from pathlib import Path
 
 import streamlit as st
 
-# Ajoute utils/ au chemin Python
+
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-from utils.rag_pipeline import RAGPipeline
+from lib.rag_pipeline import RAGPipeline
 
-# Configuration Streamlit
+
 st.set_page_config(
     layout="wide",
     page_title="Positions de thèses Assistant - test zone",
     page_icon="📜"
 )
 
-# === 📁 Vector DB registry ===
+# === Vector DB registry ===
 vector_db = {
     "camembert-base": {
         "model": "Lajavaness/sentence-camembert-base",
-        "faiss": "../notebooks/scripts/data/vectordb/camembert-base_faiss",
-        "lancedb": "../notebooks/scripts/data/vectordb/camembert-base_lancedb",
+        "faiss": "../data/retrievers/vectordb/camembert-base_faiss",
+        "lancedb": "../data/retrievers/vectordb/camembert-base_lancedb",
     },
     "camembert-large": {
         "model": "Lajavaness/sentence-camembert-large",
-        "faiss": "../notebooks/scripts/data/vectordb/camembert-large_faiss",
-        "lancedb": "../notebooks/scripts/data/vectordb/camembert-large_lancedb",
+        "faiss": "../data/retrievers/vectordb/camembert-large_faiss",
+        "lancedb": "../data/retrievers/vectordb/camembert-large_lancedb",
     },
     "multilingual": {
         "model": "sentence-transformers/distiluse-base-multilingual-cased-v1",
-        "faiss": "../notebooks/scripts/data/vectordb/multilingual_faiss",
-        "lancedb": "../notebooks/scripts/data/vectordb/multilingual_lancedb",
+        "faiss": "../data/retrievers/vectordb/multilingual_faiss",
+        "lancedb": "../data/retrievers/vectordb/multilingual_lancedb",
     },
 }
 
@@ -68,7 +68,7 @@ def get_pipeline(
     )
 
 
-# === 🧰 Colonne de gauche : paramètres ===
+
 with st.sidebar:
     st.title("🛠️ Parameters")
 
@@ -111,19 +111,19 @@ with st.sidebar:
             st.error(f"Failed to load template : {e}")
             template_path = None
 
-# === 🎯 Centre : question et réponse ===
+
 st.title("🎓 Research Assistant for Positions de thèses")
 with st.form("question_form"):
     question = st.text_input("Ask a question")
     submit_button = st.form_submit_button("🚀 Send")
 
-# 💬 Deux colonnes : réponse / documents
+
 col_left, col_right = st.columns([2, 1])
 response_container = col_left.empty()
 doc_container = col_right.expander("📄 Retrieved documents and sections", expanded=True)
 #doc_container.markdown("🔍 Aucun document affiché pour le moment...")
 
-# === 🚀 Lancement de la requête ===
+
 if submit_button and question and template_path:
     bm25_path = "../data/retrievers/bm25/bm25.encpos.tok.512_51.pkl"
 
@@ -156,7 +156,7 @@ if submit_button and question and template_path:
             return
         docs = pipeline.relevant_docs
 
-        # ✨ Réponse
+
         if not retriever_only:
             with col_left:
                 st.markdown("### 🤖 LLM Answer")
@@ -168,24 +168,22 @@ if submit_button and question and template_path:
                     container.markdown(response + "▌")
                 container.markdown(response + "\n\n" + pipeline.conclusion)
 
-        # 📄 Documents retrouvés
         grouped = {}
         for doc, score in docs:
             meta = doc.metadata
-            key = (meta.get("author", "?"), meta.get("position_name", "?"), meta.get("year", "?"), meta.get("file_id", "?"), meta.get("chunk_id", "?"))
+            key = (meta.get("author", "?"), meta.get("position_name", "?"), meta.get("year", "?"), meta.get("file_id", "?"))
             grouped.setdefault(key, []).append((doc, score))
 
-        doc_container.empty()  # efface le placeholder précédent
-        for (author, title, year, file_id, chunk_id), chunks in grouped.items():
+        doc_container.empty()
 
-            doc_container.markdown(f"**{author}**, *{title}*, promotion {year}")
-            doc_container.markdown(f"\t🔗[Lien vers la position de thèse](https://theses.chartes.psl.eu/document/{file_id}) | {chunk_id}")
+        for (author, position_name, year, file_id), chunks in grouped.items():
+            doc_container.markdown(f"**{author}**, *{position_name}*, promotion {year}")
+            doc_container.markdown(
+                f"\t🔗[Lien vers la position de thèse](https://theses.chartes.psl.eu/document/{file_id})")
             for doc, score in chunks:
-                doc_container.markdown(f"- **Score** : {score:.4f}")
+                chunk_id = doc.metadata.get("chunk_id", "?")
                 section = doc.metadata.get("section", "")
-                #content = doc.metadata.get("raw_chunk", doc.page_content)[:300]
-                doc_container.markdown(f"- section : {section}\n")
-
+                doc_container.markdown(f"- Chunk {chunk_id} | **Score** : {score:.4f} | section : {section}")
 
 
 

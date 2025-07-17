@@ -22,3 +22,13 @@ conda activate qa_rag_env
 ```bash
 streamlit run app.py
 ```
+
+### if fails 
+```bash
+conda install streamlit -c conda-forge
+pip install --upgrade --force-reinstall streamlit
+```
+and again 
+```bash
+streamlit run app.py
+```

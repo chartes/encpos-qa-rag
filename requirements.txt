@@ -9,6 +9,7 @@ langchain_huggingface
 langchain_openai
 language_tool_python
 llama_index
+streamlit
 matplotlib
 nltk
 numpy
@@ -28,3 +29,5 @@ transformers
 umap
 tabulate
 lmstudio
+rank_bm25
+faiss-cpu
